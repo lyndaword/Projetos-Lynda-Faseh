@@ -14,11 +14,12 @@
        escreva("Valor de vendas:")
        leia(coisa)
 
-       comis = (coisa*15)/100
-       salarico = salario + comis
+       comis <- (coisa*15)/100
+       salarico <-  salario + comis
 
        escreva("O nome do vendedor é:",nom,"\n Salário fixo:",salario,"\n Salário mais comissão:",salarico)
        
    
   }
 }
+fim
