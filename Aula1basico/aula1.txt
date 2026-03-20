@@ -1,0 +1,27 @@
+  programa{
+  funcao inicio() {
+   
+    cadeia nome	
+    inteiro not1, not2, not3
+    real media
+    
+       escreva("Nome do aluno:")
+       leia(nome)
+
+       escreva("Primeira nota:")
+       leia(not1)
+
+       escreva("Segunda nota:")
+       leia(not2)
+
+       escreva("Terceira nota:")
+       leia(not3)
+
+       media = (not1 + not2 + not3)/3
+
+       escreva("O nome do aluno é:", nome, \n "A média é:",media)
+          
+
+   
+  }
+}

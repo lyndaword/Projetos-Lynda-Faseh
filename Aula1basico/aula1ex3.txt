@@ -1,0 +1,24 @@
+ programa{
+  funcao inicio() {
+    
+    cadeia nom
+    real salario, coisa, comis, salarico
+    
+
+       escreva("Nome:")
+       leia(nom)
+
+       escreva("Sálario mensal:")
+       leia(salario)
+ 
+       escreva("Valor de vendas:")
+       leia(coisa)
+
+       comis = (coisa*15)/100
+       salarico = salario + comis
+
+       escreva("O nome do vendedor é:",nom,"\n Salário fixo:",salario,"\n Salário mais comissão:",salarico)
+       
+   
+  }
+}

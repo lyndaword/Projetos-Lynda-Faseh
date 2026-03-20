@@ -1,0 +1,21 @@
+  programa{
+  funcao inicio() {
+   
+    real A, B, aqB,
+    
+       escreva("Escreva o valor de A:")
+       leia(A)
+
+       escreva("Escreva o valor de B:")
+       leia(B)
+
+       aqB = A
+       A = B
+       B = aqb
+
+       escreva("O valor de A é:",A,"\n O valor de B é:\n")
+          
+
+   
+  }
+}
