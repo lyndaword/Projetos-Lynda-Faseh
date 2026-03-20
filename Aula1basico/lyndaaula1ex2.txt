@@ -9,9 +9,9 @@
        escreva("Escreva o valor de B:")
        leia(B)
 
-       aqB = A
-       A = B
-       B = aqb
+       aqB <- A
+       A <- B
+       B <- aqb
 
        escreva("O valor de A é:",A,"\n O valor de B é:\n")
           
@@ -19,3 +19,4 @@
    
   }
 }
+fim
