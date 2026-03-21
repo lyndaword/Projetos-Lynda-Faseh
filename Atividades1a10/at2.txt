@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+real c1, f1
+escreva ("Digite a temperatura em graus Celsius: ")
+leia (c1)
+f1 = (9 * c1 + 160)/5
+escreva("A temperatura em Fahrenheit é: " + f1)
+
+  }
+}

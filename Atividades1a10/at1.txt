@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    
+real gt, dt, media
+
+escreva (" Digite a distancia percorrida em KM: ")
+leia (dt)
+escreva (" Digite foi a quantidade de gasolina gasta em litros: ")
+leia (gt)
+media = dt/gt
+escreva ("O consumo médio de litros de gasolina por kilometro é: " + media)
+
+    
+  }
+}

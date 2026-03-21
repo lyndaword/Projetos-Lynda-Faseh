@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+ 
+real dolar, re1, valor
+
+escreva("Valor do dólar:")
+leia (dolar)
+escreva ("Quantidade de dolares: ")
+leia (valor)
+
+re1 = dolar*valor
+escreva("Seu valor em reais é:" + re1)
+
+  }
+}
